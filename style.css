@@ -1,0 +1,53 @@
+body {
+    
+}
+
+.header {
+    justify-content: space-between;
+    display: flex;
+    background-color: darkgray;
+    align-items: center;
+}
+
+.logo {
+    margin: 10px;
+}
+
+ul {
+    border: 2px solid black;
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+li {
+    list-style-type: none;  
+
+}
+
+a {
+    
+}
+
+.body {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.box1 {
+    background-color: gray;
+    flex-grow: 1;
+}
+
+.box2 {
+    background-color: pink;
+    flex-grow: 1;
+}
+
+.box3 {
+    background-color: lavender;
+    flex-grow: 1;
+}
+
