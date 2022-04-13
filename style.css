@@ -1,20 +1,34 @@
 body {
-    
+    margin: 0; 
 }
 
 .header {
     justify-content: space-between;
     display: flex;
     background-color: darkgray;
-    align-items: center;
+    border: 3px solid green;
+    height: 60px;
+}
+
+.headerblock {
+    border: 2px solid red;
+    width: 150px;
+    background-color: orange;
+    
+}
+
+.headertxt {
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .logo {
-    margin: 10px;
+
 }
 
+
 ul {
-    border: 2px solid black;
     display: flex;
     gap: 10px;
     margin: 10px;
@@ -22,7 +36,6 @@ ul {
 
 li {
     list-style-type: none;  
-
 }
 
 a {
@@ -30,15 +43,58 @@ a {
 }
 
 .body {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: calc(100vh - 130px);
 }
 
+
 .box1 {
-    background-color: gray;
+    border: 2px solid black;
     flex-grow: 1;
+    display: flex;
+    font-size: 32px;
+    justify-content: flex-start;
+    background-color: gray;
+}
+
+.block {
+    flex-grow: 1;
+    display: flex;
+    max-width: 150px;
+    min-width: 10px;
+    background-color: orange;
+    
+}
+
+.box1container {
+    flex-grow: 4;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.box1txt1 {
+
+    
+}
+
+.box1txt2 {
+    max-width: 350px;
+    font-size: large;
+    
+}
+
+button {
+    width: 100px;
+    border: 2px solid black;
+    background-color: lightblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .box2 {
@@ -51,3 +107,10 @@ a {
     flex-grow: 1;
 }
 
+.footer {
+    background-color: gray;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
